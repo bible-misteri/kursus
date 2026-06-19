@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandy InStyle Hair Studio & Beauty Course</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#ffffff;
+color:#222;
+}
+
+:root{
+--gold:#D4AF37;
+--black:#111111;
+--maroon:#8B0000;
+--white:#ffffff;
+--wa:#25D366;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url('images/mentor-sandy.jpg');
+background-size:cover;
+background-position:center;
+padding:120px 20px;
+text-align:center;
+color:white;
+}
+
+.badge{
+display:inline-block;
+background:var(--gold);
+padding:12px 25px;
+border-radius:40px;
+font-weight:bold;
+margin-bottom:20px;
+color:#111;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:800;
+max-width:1100px;
+margin:auto;
+line-height:1.2;
+}
+
+.hero p{
+font-size:22px;
+margin-top:20px;
+max-width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:16px 35px;
+background:var(--gold);
+color:#111;
+text-decoration:none;
+font-weight:bold;
+border-radius:50px;
+}
+
+.section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:var(--maroon);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:15px;
+color:var(--maroon);
+}
+
+.beforeafter{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
+}
+
+.box{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.box img{
+width:100%;
+display:block;
+}
+
+.label{
+padding:15px;
+font-weight:bold;
+text-align:center;
+background:var(--gold);
+}
+
+.package{
+background:#faf8f0;
+}
+
+.package-card{
+background:white;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.price{
+font-size:40px;
+font-weight:bold;
+color:var(--maroon);
+margin:15px 0;
+}
+
+.countdown{
+font-size:40px;
+font-weight:bold;
+margin-top:20px;
+color:#fff;
+}
+
+.promo{
+background:linear-gradient(135deg,var(--maroon),#4d0000);
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.testimonial{
+background:#f8f8f8;
+}
+
+.testi{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.cta{
+background:var(--gold);
+padding:80px 20px;
+text-align:center;
+}
+
+.cta h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.footer{
+background:#111;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+width:70px;
+height:70px;
+background:var(--wa);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:35px;
+text-decoration:none;
+color:white;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+z-index:9999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:34px;
+}
+
+.title{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="badge">
+⭐ Dibimbing Praktisi Berpengalaman Sejak 1987
+</div>
+
+<h1>
+Belajar Langsung dari Praktisi Dunia Rambut Berpengalaman Sejak 1987
+</h1>
+
+<p>
+Classic Style • Japanese Style • Korean Style • Fade & Taper Barber
+<br>
+Belajar Praktik Langsung Hingga Siap Kerja dan Siap Membuka Usaha
+</p>
+
+<a href="#daftar" class="btn">
+DAFTAR SEKARANG
+</a>
+
+</section>
+
+<section class="section">
+
+<h2 class="title">
+Mengapa Memilih Sandy InStyle?
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>80% Praktik</h3>
+<p>Belajar langsung memegang alat dan melayani model.</p>
+</div>
+
+<div class="card">
+<h3>Teknik Modern</h3>
+<p>Japanese Style, Korean Style, Fade & Taper.</p>
+</div>
+
+<div class="card">
+<h3>Siap Kerja</h3>
+<p>Kurikulum dirancang mengikuti kebutuhan industri.</p>
+</div>
+
+<div class="card">
+<h3>Magang</h3>
+<p>Kesempatan praktik di salon dan barber aktif.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="title">
+Galeri Transformasi Before & After
+</h2>
+
+<div class="beforeafter">
+
+<div class="box">
+<img src="images/before1.jpg">
+<div class="label">Before 1</div>
+</div>
+
+<div class="box">
+<img src="images/after1.jpg">
+<div class="label">After 1</div>
+</div>
+
+<div class="box">
+<img src="images/before2.jpg">
+<div class="label">Before 2</div>
+</div>
+
+<div class="box">
+<img src="images/after2.jpg">
+<div class="label">After 2</div>
+</div>
+
+<div class="box">
+<img src="images/before3.jpg">
+<div class="label">Before 3</div>
+</div>
+
+<div class="box">
+<img src="images/after3.jpg">
+<div class="label">After 3</div>
+</div>
+
+<div class="box">
+<img src="images/before4.jpg">
+<div class="label">Before 4</div>
+</div>
+
+<div class="box">
+<img src="images/after4.jpg">
+<div class="label">After 4</div>
+</div>
+
+<div class="box">
+<img src="images/before5.jpg">
+<div class="label">Before 5</div>
+</div>
+
+<div class="box">
+<img src="images/after5.jpg">
+<div class="label">After 5</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAKET KURSUS -->
+
+<section class="section package">
+
+<h2 class="title">
+Program Kursus Profesional
+</h2>
+
+<div class="grid">
+
+<div class="package-card">
+
+<h3>PAKET 1 BULAN</h3>
+
+<h4>Fast Track Barber</h4>
+
+<div class="price">
+Rp 1.750.000
+</div>
+
+<p>✔ Dasar Barber</p>
+<p>✔ Fade Dasar</p>
+<p>✔ Taper Dasar</p>
+<p>✔ Sertifikat</p>
+
+<br>
+
+<a href="https://wa.me/6281234567890" class="btn">
+DAFTAR
+</a>
+
+</div>
+
+<div class="package-card">
+
+<h3>PAKET 2 BULAN</h3>
+
+<h4>Barber Professional</h4>
+
+<div class="price">
+Rp 2.750.000
+</div>
+
+<p>✔ Fade Professional</p>
+<p>✔ Taper Professional</p>
+<p>✔ Konsultasi Pelanggan</p>
+<p>✔ Sertifikat</p>
+
+<br>
+
+<a href="https://wa.me/6281234567890" class="btn">
+DAFTAR
+</a>
+
+</div>
+
+<div class="package-card">
+
+<h3>PAKET 3 BULAN</h3>
+
+<h4>Salon & Barber Professional</h4>
+
+<div class="price">
+Rp 3.500.000
+</div>
+
+<p>✔ Japanese Style</p>
+<p>✔ Korean Style</p>
+<p>✔ Fade & Taper</p>
+<p>✔ Peluang Magang</p>
+
+<br>
+
+<a href="https://wa.me/6281234567890" class="btn">
+DAFTAR
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- COUNTDOWN PROMO -->
+
+<section class="promo">
+
+<h2>
+🔥 PROMO GELOMBANG PERTAMA 🔥
+</h2>
+
+<br>
+
+<h3>
+NORMAL Rp 3.500.000
+</h3>
+
+<br>
+
+<div style="font-size:60px;font-weight:bold;color:#FFD700;">
+Rp 1.750.000
+</div>
+
+<p>
+Khusus 10 Peserta Pertama
+</p>
+
+<div id="countdown" class="countdown">
+00 Hari 00 Jam 00 Menit 00 Detik
+</div>
+
+</section>
+
+<!-- TESTIMONI -->
+
+<section class="section testimonial">
+
+<h2 class="title">
+Testimoni Alumni
+</h2>
+
+<div class="grid">
+
+<div class="testi">
+
+⭐⭐⭐⭐⭐
+
+<p>
+Dulu saya hanya belajar dari YouTube.
+Setelah mengikuti kursus ini saya sudah berani menerima pelanggan sendiri.
+</p>
+
+<br>
+
+<strong>
+Andi - Alumni Barber
+</strong>
+
+</div>
+
+<div class="testi">
+
+⭐⭐⭐⭐⭐
+
+<p>
+Belajarnya banyak praktik dan sangat mudah dipahami.
+Sekarang saya sudah bekerja di barbershop.
+</p>
+
+<br>
+
+<strong>
+Fajar - Alumni
+</strong>
+
+</div>
+
+<div class="testi">
+
+⭐⭐⭐⭐⭐
+
+<p>
+Instruktur sangat detail dan sabar.
+Materinya langsung bisa dipraktikkan.
+</p>
+
+<br>
+
+<strong>
+Rina - Alumni Salon
+</strong>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BONUS -->
+
+<section class="section">
+
+<h2 class="title">
+Bonus Khusus Peserta
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+🎁
+
+<h3>Modul Lengkap</h3>
+
+<p>
+Materi kursus dalam bentuk digital.
+</p>
+
+</div>
+
+<div class="card">
+
+🎁
+
+<h3>Panduan Salon</h3>
+
+<p>
+Belajar membuka salon sendiri.
+</p>
+
+</div>
+
+<div class="card">
+
+🎁
+
+<h3>Panduan Barbershop</h3>
+
+<p>
+Belajar membuka barber modern.
+</p>
+
+</div>
+
+<div class="card">
+
+🎁
+
+<h3>Grup Alumni</h3>
+
+<p>
+Konsultasi setelah lulus.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VIDEO -->
+
+<section class="section">
+
+<h2 class="title">
+Video Profil Akademi
+</h2>
+
+<div style="max-width:900px;margin:auto;">
+
+<iframe
+width="100%"
+height="500"
+src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+title="Video Profil"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="section">
+
+<h2 class="title">
+Pertanyaan yang Sering Ditanyakan
+</h2>
+
+<div class="card" style="margin-bottom:20px;">
+
+<h3>
+Apakah pemula bisa ikut?
+</h3>
+
+<p>
+Ya. Program dirancang dari nol hingga siap praktik.
+</p>
+
+</div>
+
+<div class="card" style="margin-bottom:20px;">
+
+<h3>
+Apakah mendapatkan sertifikat?
+</h3>
+
+<p>
+Ya. Sertifikat diberikan setelah menyelesaikan program.
+</p>
+
+</div>
+
+<div class="card" style="margin-bottom:20px;">
+
+<h3>
+Apakah ada praktik langsung?
+</h3>
+
+<p>
+Ya. Sekitar 80% pembelajaran berupa praktik.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Apakah bisa membuka usaha sendiri?
+</h3>
+
+<p>
+Bisa. Kami juga mengajarkan dasar bisnis salon dan barber.
+</p>
+
+</div>
+
+</section>
+
+<!-- CTA BESAR -->
+
+<section class="cta" id="daftar">
+
+<h2>
+Saatnya Memiliki Skill yang Dicari Seumur Hidup
+</h2>
+
+<p style="font-size:22px;max-width:900px;margin:auto;">
+
+Belajar langsung dari praktisi dunia rambut berpengalaman sejak 1987.
+</p><p>
+• Classic Style • Japanese Style • Korean Style • Fade & Taper
+
+</p>
+
+<br><br>
+
+<a href="https://wa.me/683183329222" class="btn">
+
+DAFTAR VIA WHATSAPP
+
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<h3>
+SANDY IN-STYLE HAIR STUDIO & BEAUTY COURSE
+</h3>
+
+<br>
+
+<p>
+Belajar • Berkarya • Berkarier
+</p>
+
+<br>
+
+<p>
+📍 Bulan Terang Utama GA38-105
+</p>
+
+<p>
+📞 085162554856
+</p>
+
+<p>
+📧 norman.sandhi@gmail.com
+</p>
+
+<br>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
+</footer>
+
+<!-- WHATSAPP FLOATING -->
+
+<a href="https://wa.me/683183329222"
+class="whatsapp"
+target="_blank">
+
+💬
+
+</a>
+
+<!-- COUNTDOWN SCRIPT -->
+
+<script>
+
+var countDownDate =
+new Date("Dec 31, 2026 23:59:59").getTime();
+
+var x = setInterval(function(){
+
+var now = new Date().getTime();
+
+var distance = countDownDate - now;
+
+var days =
+Math.floor(distance /
+(1000*60*60*24));
+
+var hours =
+Math.floor((distance %
+(1000*60*60*24))
+/
+(1000*60*60));
+
+var minutes =
+Math.floor((distance %
+(1000*60*60))
+/
+(1000*60));
+
+var seconds =
+Math.floor((distance %
+(1000*60))
+/
+1000);
+
+document.getElementById("countdown").innerHTML =
+days + " Hari "
++ hours + " Jam "
++ minutes + " Menit "
++ seconds + " Detik ";
+
+if(distance < 0){
+
+clearInterval(x);
+
+document.getElementById("countdown").innerHTML =
+"PROMO BERAKHIR";
+
+}
+
+},1000);
+
+</script>
+
+</body>
+</html>
